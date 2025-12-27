@@ -1,4 +1,4 @@
-# Topic Mover
+# Smart File Manager
 
 An Obsidian plugin that automatically organizes your notes by moving them to folders based on frontmatter properties. Customize which property to use, add base folders, create nested subfolders, and more!
 
@@ -17,12 +17,12 @@ An Obsidian plugin that automatically organizes your notes by moving them to fol
 
 1. Open Obsidian Settings
 2. Go to Community Plugins
-3. Click "Browse" and search for "Topic Mover"
+3. Click "Browse" and search for "Smart File Manager"
 4. Click Install, then Enable
 
 ### Manual Installation
 
-1. Download the latest release from the [Releases page](https://github.com/yourusername/obsidian-topic-mover/releases)
+1. Download the latest release from the [Releases page](https://github.com/sarwarkaiser/obsidian-topic-mover/releases)
 2. Extract the zip file to your vault's `.obsidian/plugins/` directory
 3. Reload Obsidian or restart the app
 4. Enable the plugin in Settings → Community Plugins
@@ -45,7 +45,7 @@ topic: soccer
 
 You can use any frontmatter property. For example, using `category`:
 
-1. Go to Settings → Topic Mover
+1. Go to Settings → Smart File Manager
 2. Set "Property Name" to `category`
 3. Add to your file:
 
@@ -100,7 +100,7 @@ The file will be moved to: `Notes/work/website/`
 
 ## Settings
 
-Access settings via: **Settings → Topic Mover**
+Access settings via: **Settings → Smart File Manager**
 
 ### Available Options
 

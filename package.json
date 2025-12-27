@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-topic-mover",
+  "name": "smart-file-manager",
   "version": "1.0.0",
-  "description": "Obsidian plugin to move files based on topic property",
+  "description": "Obsidian plugin to automatically organize files based on frontmatter properties",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",

@@ -1,7 +1,7 @@
 import { App, PluginSettingTab, Setting } from 'obsidian';
-import TopicMoverPlugin from './main';
+import SmartFileManagerPlugin from './main';
 
-export interface TopicMoverSettings {
+export interface SmartFileManagerSettings {
 	enabled: boolean;
 	propertyName: string;
 	baseFolder: string;
@@ -11,7 +11,7 @@ export interface TopicMoverSettings {
 	createFolders: boolean;
 }
 
-export const DEFAULT_SETTINGS: TopicMoverSettings = {
+export const DEFAULT_SETTINGS: SmartFileManagerSettings = {
 	enabled: true,
 	propertyName: 'topic',
 	baseFolder: '',
@@ -21,10 +21,10 @@ export const DEFAULT_SETTINGS: TopicMoverSettings = {
 	createFolders: true,
 };
 
-export class TopicMoverSettingTab extends PluginSettingTab {
-	plugin: TopicMoverPlugin;
+export class SmartFileManagerSettingTab extends PluginSettingTab {
+	plugin: SmartFileManagerPlugin;
 
-	constructor(app: App, plugin: TopicMoverPlugin) {
+	constructor(app: App, plugin: SmartFileManagerPlugin) {
 		super(app, plugin);
 		this.plugin = plugin;
 	}
@@ -34,7 +34,7 @@ export class TopicMoverSettingTab extends PluginSettingTab {
 
 		containerEl.empty();
 
-		containerEl.createEl('h2', { text: 'Topic Mover Settings' });
+		containerEl.createEl('h2', { text: 'Smart File Manager Settings' });
 
 		containerEl.createEl('p', {
 			text: 'Automatically organize your notes by moving them to folders based on frontmatter properties.',

@@ -1,21 +1,21 @@
 import { Plugin, TFile, normalizePath } from 'obsidian';
 import {
-	TopicMoverSettings,
+	SmartFileManagerSettings,
 	DEFAULT_SETTINGS,
-	TopicMoverSettingTab,
+	SmartFileManagerSettingTab,
 } from './settings';
 
-export default class TopicMoverPlugin extends Plugin {
-	settings: TopicMoverSettings;
+export default class SmartFileManagerPlugin extends Plugin {
+	settings: SmartFileManagerSettings;
 	private movingFiles: Set<string> = new Set();
 
 	async onload() {
 		await this.loadSettings();
 
 		// Add settings tab
-		this.addSettingTab(new TopicMoverSettingTab(this.app, this));
+		this.addSettingTab(new SmartFileManagerSettingTab(this.app, this));
 
-		console.log('Loading Topic Mover plugin');
+		console.log('Loading Smart File Manager plugin');
 
 		// Listen to metadata cache changes instead of file modifications
 		// This ensures the frontmatter is parsed before we try to read it
@@ -40,7 +40,7 @@ export default class TopicMoverPlugin extends Plugin {
 	}
 
 	onunload() {
-		console.log('Unloading Topic Mover plugin');
+		console.log('Unloading Smart File Manager plugin');
 	}
 
 	async loadSettings() {
