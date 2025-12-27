@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "Automatically organize your notes by moving them to folders based on customizable frontmatter properties. Supports base folders, subfolders, and flexible property selection.",
-  "author": "Your Name",
-  "authorUrl": "",
+  "author": "Sarwar Kaiser",
+  "authorUrl": "https://github.com/sarwarkaiser",
   "fundingUrl": "",
   "isDesktopOnly": false
 }

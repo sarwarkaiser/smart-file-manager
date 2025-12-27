@@ -22,7 +22,7 @@ An Obsidian plugin that automatically organizes your notes by moving them to fol
 
 ### Manual Installation
 
-1. Download the latest release from the [Releases page](https://github.com/sarwarkaiser/obsidian-topic-mover/releases)
+1. Download the latest release from the [Releases page](https://github.com/sarwarkaiser/smart-file-manager/releases)
 2. Extract the zip file to your vault's `.obsidian/plugins/` directory
 3. Reload Obsidian or restart the app
 4. Enable the plugin in Settings → Community Plugins
